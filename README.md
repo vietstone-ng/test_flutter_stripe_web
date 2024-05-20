@@ -1,0 +1,20 @@
+# test_flutter_stripe_web
+
+This is just a test project
+
+Test card:
+4242 4242 4242 4242
+mm/yy 12/34
+cvc 123
+name test
+
+
+Steps:
+- Create Stripe customer with tchat id
+- Check subscription status with tchat account id
+- Pay for customer id by Checkout (Stripe's pre-built web page) or Elements (Stripe's pre-built component)
+
+Note: Checkout is deprecated
+https://github.com/flutter-stripe/flutter_stripe/issues/1776#issuecomment-2114822985
+https://pub.dev/packages/stripe_checkout
+
